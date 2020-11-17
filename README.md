@@ -1,0 +1,1 @@
+# homebrew-elasticsearch-5.6
