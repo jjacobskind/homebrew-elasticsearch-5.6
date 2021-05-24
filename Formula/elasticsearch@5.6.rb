@@ -8,7 +8,7 @@ class ElasticsearchAT56 < Formula
 
   keg_only :versioned_formula
 
-  deprecate! :date => "2019-03-11"
+  deprecate! :date => "2019-03-11", because: :unsupported
 
   def cluster_name
     "elasticsearch_#{ENV["USER"]}"
